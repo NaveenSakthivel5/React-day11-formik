@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(169, 169, 169, 0.7);
+}
+
+.card {
+  overflow: auto;
+  width: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 18px;
+  overflow: auto;
+  width: fit-content;
+  background-color: rgba(169, 169, 169, 0.7);
+  margin: 10px;
+}
+
+.divbtn {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+
+.table.table-bordered {
+  width: 100%;
+}
+
+.authordetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(169, 169, 169, 0.7);
+}
+
+.form-group {
+  padding: 10px;
+}
+
+.titleHead {
+  text-align: center;
+  font-weight: 600;
+  flex-wrap: wrap;
+}
